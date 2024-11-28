@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    text-align: center;
+    padding: 80px 50px;
+    background-color: #eee;
+    flex: 1;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    z-index: 10; 
+    margin-top: 0; 
+}
+
+.header .logo {
+    height: 80px;
+    margin-right: auto;
+}
+
+
+.menu {
+    display: flex;
+    gap: 10px; 
+}
+
+.menu button {
+    background-color: #dbdbdb;
+    border: 0;
+    border-radius: 12px;
+    padding: 10px 15px;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #121212;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.menu button:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+
+
+main {
+    text-align: center;
+    padding: 80px 50px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+footer {
+    width: 100%; 
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+    position: relative;
+    bottom: 0;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer address {
+    font-style: normal;
+    line-height: 1.6;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    color: #333;
+}

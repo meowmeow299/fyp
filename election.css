@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    z-index: 10; 
+    margin-top: 0; 
+}
+
+
+.header .logo {
+    height: 80px;
+    margin-right: auto;
+}
+
+
+.menu {
+    display: flex;
+    gap: 10px; 
+}
+
+.menu button {
+    background-color: #dbdbdb;
+    border: 0;
+    border-radius: 12px;
+    padding: 10px 15px;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #121212;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+    text-align: center;
+    white-space: nowrap; 
+}
+
+.menu button:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="datetime-local"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+
+button {
+    padding: 8px 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+button.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+}
+
+button.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+
+
+.add-election-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-election-btn button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-election-btn button:hover {
+    background-color: #45a049;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #000000;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
